@@ -1,0 +1,391 @@
+{
+  "dbName": "resumetric_ai",
+  "updatedAt": "2026-10-25T08:56:43.430Z",
+  "collections": {
+    "users": [
+      {
+        "id": "usr_e1328180",
+        "name": "Bintu",
+        "email": "bintu@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "passwordHash": "b3ecd0cd8e9991ff1f80e397f6eee74df4466f4273615d8aabf5b1f5279c1cc917726ecd0ae0e0ed3593dc3fb791ea2dade4a432f0b296162a276d89216cd613",
+        "salt": "31ab6ca9cf8696abf2b83feacc0bc7ef",
+        "role": "Senior Full-Stack Candidate",
+        "createdAt": "2026-10-25T08:46:28.606Z",
+        "lastActive": "2026-10-25T08:46:28.606Z"
+      },
+      {
+        "id": "usr_5eb35921",
+        "name": "Divya Sharma",
+        "email": "divya@gmail.com",
+        "contactNumber": "+91 9845012345",
+        "passwordHash": "cbb91ce1142f5a9089cc96d5897ca459de1300fcb21c8a4a2736bbd16618fd0050305d2431ceca32f3a6375582868631ac766dd7192426f11fb080e67124974c",
+        "salt": "655715249a6ecbc27eed037902bbc0db",
+        "role": "Mid-Level SWE Candidate",
+        "createdAt": "2026-10-25T08:46:28.607Z",
+        "lastActive": "2026-10-25T08:46:28.607Z"
+      },
+      {
+        "id": "usr_e748606d",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@gmail.com",
+        "contactNumber": "+1 4158904321",
+        "passwordHash": "021fb61270d22c05ad96ad5e7e9d1a07f56570df02b17c8282c839119dddaebc40e6aa4535d26dc1ab67c6c3a80e315b47da9d5e6c594a7a82215f3ffdd1c272",
+        "salt": "b8e0ec36db6c202c0a1f193b8c140d9f",
+        "role": "Staff Architect Candidate",
+        "createdAt": "2026-10-25T08:46:28.607Z",
+        "lastActive": "2026-10-25T08:46:28.607Z"
+      },
+      {
+        "id": "usr_486318e3",
+        "name": "Alex Rivera",
+        "email": "alex.rivera@gmail.com",
+        "contactNumber": "+1 6504329876",
+        "passwordHash": "d27d42a4e54a0eba74e5544b1924d27b4b848d623e49569e7744fb64d5829e98a7e8487080672257f2b5776d762f31ad988259901de7093e6284bb3d528f11a2",
+        "salt": "a348188d177fa3b4fed497df806c74ba",
+        "role": "Junior Developer Candidate",
+        "createdAt": "2026-10-25T08:46:28.608Z",
+        "lastActive": "2026-10-25T08:46:28.608Z"
+      }
+    ],
+    "analysis_history": [
+      {
+        "id": "anl_d78c389c",
+        "candidateName": "Divya Sharma",
+        "candidateEmail": "candidate@gmail.com",
+        "candidatePhone": "+91 9876543210",
+        "fileName": "divya_resume.pdf",
+        "targetRole": "Full Stack Software Engineer",
+        "score": 96,
+        "matchPercentage": 98,
+        "skillsDetected": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "Java",
+          "SQL",
+          "MongoDB",
+          "REST APIs",
+          "Git",
+          "AWS / Cloud",
+          "Machine Learning"
+        ],
+        "missingSkills": [
+          "Kubernetes Cluster Ops"
+        ],
+        "strengths": [
+          "Parsed 11 verified competencies (JavaScript, TypeScript, React, Node.js)",
+          "Matches 8 of 8 target skills for Full Stack Software Engineer",
+          "Document layout validated for ATS keyword screening"
+        ],
+        "formatVerified": true,
+        "timestamp": "2026-10-25T08:56:43.429Z",
+        "fullAnalysis": {
+          "id": "anl_d78c389c",
+          "fileName": "divya_resume.pdf",
+          "candidateName": "Divya Sharma",
+          "candidateEmail": "candidate@gmail.com",
+          "candidatePhone": "+91 9876543210",
+          "greeting": "Showing live evaluation for divya_resume.pdf (96/100)",
+          "targetRole": "Full Stack Software Engineer",
+          "score": 96,
+          "scoreStatus": "Exceptional",
+          "scoreStatusColor": "bg-tertiary-fixed/30 text-tertiary",
+          "scoreIcon": "verified",
+          "gaugeStrokeColor": "#006e4b",
+          "summaryText": "Evaluated divya_resume.pdf (11 skills verified). Alignment with Full Stack Software Engineer is 98%.",
+          "formatVerified": true,
+          "formatStatusText": "Formatting & ATS schema verified (divya_resume.pdf)",
+          "percentileText": "Top 8% of candidates",
+          "matchPercentage": 98,
+          "matchCircleColor": "#3525cd",
+          "matchedCount": 11,
+          "missingCount": 0,
+          "totalReqCount": 11,
+          "skillsDetected": [
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "Node.js",
+            "Java",
+            "SQL",
+            "MongoDB",
+            "REST APIs",
+            "Git",
+            "AWS / Cloud",
+            "Machine Learning"
+          ],
+          "missingSkills": [
+            "Kubernetes Cluster Ops"
+          ],
+          "strengths": [
+            "Parsed 11 verified competencies (JavaScript, TypeScript, React, Node.js)",
+            "Matches 8 of 8 target skills for Full Stack Software Engineer",
+            "Document layout validated for ATS keyword screening"
+          ],
+          "education": [
+            {
+              "degree": "B.Tech / B.S. in Computer Science",
+              "institution": "Accredited Institute of Technology",
+              "year": "2024",
+              "gpa": "8.5 / 10.0"
+            }
+          ],
+          "experience": [
+            {
+              "title": "Software Developer",
+              "company": "Extracted from divya_resume.pdf",
+              "duration": "2023 – Present",
+              "impact": "Developed features using JavaScript, TypeScript, React with verified production uptime."
+            }
+          ],
+          "projects": [
+            {
+              "name": "Core Application Service",
+              "stack": "JavaScript, TypeScript, React, Node.js",
+              "outcome": "Engineered scalable components verified during automated scan of divya_resume.pdf."
+            }
+          ],
+          "certifications": [
+            {
+              "name": "Verified Software Engineering & Cloud Credential",
+              "issuer": "Industry Certification Board",
+              "year": "2024"
+            }
+          ],
+          "showCriticalWarning": false,
+          "remediationTip": "Strong alignment! Adding system architecture metrics will increase your score to 99.",
+          "actionBtnText": "Compare in Job Matcher"
+        }
+      },
+      {
+        "id": "anl_01",
+        "candidateName": "Bintu",
+        "candidateEmail": "bintu@gmail.com",
+        "candidatePhone": "+91 9876543210",
+        "fileName": "bintu_fullstack_resume.pdf",
+        "targetRole": "Senior Full Stack Engineer",
+        "score": 91,
+        "matchPercentage": 88,
+        "skillsDetected": [
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Node.js",
+          "MongoDB",
+          "REST API",
+          "Docker",
+          "SQL"
+        ],
+        "missingSkills": [
+          "Kubernetes Cluster Ops"
+        ],
+        "strengths": [
+          "Strong end-to-end production full-stack architecture and REST API integration",
+          "Verified database schema design with MongoDB and SQL",
+          "Quantified performance improvements across web applications"
+        ],
+        "formatVerified": true,
+        "timestamp": "2026-10-25T08:31:28.608Z"
+      },
+      {
+        "id": "anl_01b",
+        "candidateName": "Bintu",
+        "candidateEmail": "bintu@gmail.com",
+        "candidatePhone": "+91 9876543210",
+        "fileName": "bintu_previous_draft_v1.pdf",
+        "targetRole": "Full Stack Software Engineer",
+        "score": 79,
+        "matchPercentage": 76,
+        "skillsDetected": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "MongoDB",
+          "SQL",
+          "Git"
+        ],
+        "missingSkills": [
+          "TypeScript",
+          "Docker"
+        ],
+        "strengths": [
+          "Solid full-stack project implementation with React and Node.js",
+          "Verified relational and NoSQL database fundamentals"
+        ],
+        "formatVerified": true,
+        "timestamp": "2026-10-24T14:46:28.608Z"
+      },
+      {
+        "id": "anl_02",
+        "candidateName": "Elena Rostova",
+        "candidateEmail": "elena.rostova@gmail.com",
+        "candidatePhone": "+1 4158904321",
+        "fileName": "elena_rostova_staff.pdf",
+        "targetRole": "Full Stack Software Engineer",
+        "score": 94,
+        "matchPercentage": 91,
+        "skillsDetected": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js",
+          "MongoDB",
+          "SQL",
+          "Docker",
+          "Machine Learning"
+        ],
+        "missingSkills": [
+          "Kubernetes Cluster Ops"
+        ],
+        "strengths": [
+          "Extensive production full-stack engineering track record",
+          "Quantified business impacts and high-throughput systems design",
+          "Strong programming background with cloud and distributed DBs"
+        ],
+        "formatVerified": true,
+        "timestamp": "2026-10-25T06:46:28.608Z"
+      },
+      {
+        "id": "anl_03",
+        "candidateName": "Divya Sharma",
+        "candidateEmail": "divya@gmail.com",
+        "candidatePhone": "+91 9845012345",
+        "fileName": "resume_divya_v2.pdf",
+        "targetRole": "Full Stack Software Engineer",
+        "score": 68,
+        "matchPercentage": 57,
+        "skillsDetected": [
+          "Python",
+          "JavaScript",
+          "MongoDB",
+          "HTML",
+          "CSS"
+        ],
+        "missingSkills": [
+          "Node.js",
+          "React",
+          "REST API"
+        ],
+        "strengths": [
+          "Good technical skill coverage in front-end fundamentals",
+          "Clear academic achievements & validated degree in Computer Science",
+          "Clean layout with quantified impact across coursework"
+        ],
+        "formatVerified": true,
+        "timestamp": "2026-10-25T02:46:28.608Z"
+      }
+    ],
+    "activity_logs": [
+      {
+        "id": "act_6b63af3d",
+        "category": "analysis_complete",
+        "title": "ATS Resume Analysis Completed (#2: divya_resume.pdf)",
+        "description": "Evaluated \"divya_resume.pdf\" against Full Stack Software Engineer — Resume Score: 96/100 (Exceptional) · Job Match: 98%",
+        "candidateName": "Divya Sharma",
+        "candidateEmail": "candidate@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Score: 96/100 · 11 Skills",
+        "status": "200 OK",
+        "timestamp": "2026-10-25T08:56:43.430Z"
+      },
+      {
+        "id": "act_b6000aa2",
+        "category": "resume_upload",
+        "title": "Resume Document Uploaded (#2: divya_resume.pdf)",
+        "description": "Upload #2: Uploaded \"divya_resume.pdf\" (Uploaded Document) as Divya Sharma for target role: Full Stack Software Engineer",
+        "candidateName": "Divya Sharma",
+        "candidateEmail": "candidate@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Upload #2 · File: divya_resume.pdf",
+        "status": "VERIFIED",
+        "timestamp": "2026-10-25T08:56:42.630Z"
+      },
+      {
+        "id": "act_2dfdd980",
+        "category": "resume_upload",
+        "title": "Invalid Document Rejected (space_exploration_article.pdf)",
+        "description": "Rejected \"space_exploration_article.pdf\": File does not appear to be a resume (The uploaded file appears to be a generic news article, academic paper, or essay, not a candidate resume or CV.)",
+        "candidateName": "Elena",
+        "candidateEmail": "candidate@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Rejected · Non-Resume File: space_exploration_article.pdf",
+        "status": "VERIFIED",
+        "timestamp": "2026-10-25T08:56:31.320Z"
+      },
+      {
+        "id": "act_fb36b8ff",
+        "category": "resume_upload",
+        "title": "Invalid Document Rejected (chocolate_cake_recipe.docx)",
+        "description": "Rejected \"chocolate_cake_recipe.docx\": File does not appear to be a resume (The uploaded file appears to be a food recipe or culinary document, not a candidate resume or CV.)",
+        "candidateName": "Bintu",
+        "candidateEmail": "candidate@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Rejected · Non-Resume File: chocolate_cake_recipe.docx",
+        "status": "VERIFIED",
+        "timestamp": "2026-10-25T08:56:25.771Z"
+      },
+      {
+        "id": "act_c61cee71",
+        "category": "resume_upload",
+        "title": "Invalid Document Rejected (grocery_invoice.pdf)",
+        "description": "Rejected \"grocery_invoice.pdf\": File does not appear to be a resume (The uploaded file appears to be a financial bill, invoice, or receipt, not a candidate resume or CV.)",
+        "candidateName": "Divya",
+        "candidateEmail": "candidate@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Rejected · Non-Resume File: grocery_invoice.pdf",
+        "status": "VERIFIED",
+        "timestamp": "2026-10-25T08:56:19.448Z"
+      },
+      {
+        "id": "act_seed_01",
+        "category": "analysis_complete",
+        "title": "ATS Resume Analysis Completed",
+        "description": "Scored bintu_fullstack_resume.pdf against Senior Full Stack Engineer (Score: 91/100 · 88% Match)",
+        "candidateName": "Bintu",
+        "candidateEmail": "bintu@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Score: 91/100 · 8 Skills Verified",
+        "status": "200 OK",
+        "timestamp": "2026-10-25T08:32:28.608Z"
+      },
+      {
+        "id": "act_seed_02",
+        "category": "resume_upload",
+        "title": "Resume Document Uploaded",
+        "description": "Uploaded bintu_fullstack_resume.pdf (2.10 MB · PDF/A-1b Validated)",
+        "candidateName": "Bintu",
+        "candidateEmail": "bintu@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "File: bintu_fullstack_resume.pdf",
+        "status": "VERIFIED",
+        "timestamp": "2026-10-25T08:31:28.608Z"
+      },
+      {
+        "id": "act_seed_03",
+        "category": "password_change",
+        "title": "Account Password Updated on Website",
+        "description": "Password hash rotated via PBKDF2-SHA512; previous credentials revoked for bintu@gmail.com",
+        "candidateName": "Bintu",
+        "candidateEmail": "bintu@gmail.com",
+        "contactNumber": "+91 9876543210",
+        "metadata": "Hash: PBKDF2-SHA512",
+        "status": "UPDATED",
+        "timestamp": "2026-10-25T07:58:28.608Z"
+      },
+      {
+        "id": "act_seed_04",
+        "category": "analysis_complete",
+        "title": "ATS Resume Analysis Completed",
+        "description": "Scored resume_divya_v2.pdf against Full Stack Software Engineer (Score: 68/100 · 57% Match)",
+        "candidateName": "Divya Sharma",
+        "candidateEmail": "divya@gmail.com",
+        "contactNumber": "+91 9845012345",
+        "metadata": "Score: 68/100 · 5 Skills Verified",
+        "status": "200 OK",
+        "timestamp": "2026-10-25T02:46:28.608Z"
+      }
+    ]
+  }
+}
